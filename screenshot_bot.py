@@ -1,23 +1,4 @@
-"""
-Discord screenshot bot.
-
-Setup:
-  1. pip install discord.py mss python-dotenv
-  2. Discord Developer Portal -> New Application -> Bot tab:
-       - copy the token
-       - enable "Message Content Intent"
-  3. OAuth2 -> URL Generator: scope "bot", permissions "Send Messages" +
-     "Attach Files" + "Read Message History" -> open URL, add to your server.
-  4. Copy .env.example to .env (next to this file) and fill in:
-       DISCORD_TOKEN   your bot token
-       OWNER_ID        your Discord user ID (Settings > Advanced > Developer Mode,
-                       then right-click yourself > Copy User ID)
-  5. python screenshot_bot.py
-
-Usage in Discord:
-  !shot          all monitors
-  !shot 1        just monitor 1 (2 for the second, etc.)
-"""
+"""Discord screenshot bot. See README.md for setup and usage."""
 import asyncio
 import io
 import os
