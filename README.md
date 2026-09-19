@@ -32,4 +32,4 @@ Type `!shot` in Discord and the bot posts a screenshot of your PC. Handy for che
 - The bot only responds to the user ID in `OWNER_ID`. It can see your whole screen, so keep it in a private server or channel.
 - It has to be running on the PC. Put it in a terminal window or start it at login with Task Scheduler.
 - If the PC is asleep or the screen is locked, nothing useful will be captured.
-- Keep `.env` out of git. If your token is ever committed, regenerate it in the Developer Portal.
+- Slopped together.
